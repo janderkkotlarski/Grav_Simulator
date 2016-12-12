@@ -4,7 +4,7 @@ Planoid::Planoid(const float mass, const sf::Vector2f &posit,
                  const sf::Vector2f& veloc, const float deltime,
                  const sf::Color &color)
     :m_mass(mass), m_radi(sqrt(m_mass)), m_posit(posit),
-     m_veloc(veloc), m_accel(sf::Vector2f(0.0f, 0.0f)),
+     m_veloc(veloc), m_accel(sf::Vector2f(0.0f, 0.01f)),
      m_deltime(deltime), m_color(color), m_circle()
 {
     set_circle();

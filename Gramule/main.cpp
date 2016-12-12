@@ -11,7 +11,7 @@ int main()
     const std::string program_name{"Grav Sim"};
     const float win_dim{200};
 
-    const float deltime{0.001f};
+    const float deltime{0.003f};
 
     const float mass{160.0f};
     const sf::Vector2f posit{30.0f, 60.0f};
