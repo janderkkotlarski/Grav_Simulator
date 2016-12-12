@@ -50,6 +50,17 @@ void Planoid::display(sf::RenderWindow &window)
     window.draw(m_circle);
 }
 
+void Planoid::attract(Planoid& planed)
+{
+
+}
+
+float Planoid::get_mass()
+const noexcept
+{
+    return m_mass;
+}
+
 sf::Vector2f Planoid::get_posit()
 const noexcept
 {

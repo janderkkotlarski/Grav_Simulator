@@ -4,7 +4,8 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.cpp \
-    planoid.cpp
+    planoid.cpp \
+    gravector.cpp
 
 QMAKE_CXXFLAGS += -std=c++11 -Wall -Wextra
 
@@ -15,4 +16,5 @@ LIBS += -LD:/SFML-2.4.0/lib
 LIBS += -LD:\SFML-2.4.0\bin
 
 HEADERS += \
-    planoid.h
+    planoid.h \
+    gravector.h

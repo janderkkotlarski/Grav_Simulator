@@ -39,6 +39,10 @@ public:
 
     void display(sf::RenderWindow& window);
 
+    void attract(Planoid& planed);
+
+    float get_mass() const noexcept;
+
     sf::Vector2f get_posit() const noexcept;
 
     sf::Vector2f get_accel() const noexcept;
