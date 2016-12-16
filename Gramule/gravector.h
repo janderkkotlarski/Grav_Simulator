@@ -4,9 +4,12 @@
 #include <cmath>
 #include <SFML/Graphics.hpp>
 
-class Gravector
-{
 
-};
+float abso(const sf::Vector2f& vect)
+{
+    return sqrt(vect.x*vect.x + vect.y*vect.y);
+}
+
+sf::Vector2f
 
 #endif // GRAVECTOR_H

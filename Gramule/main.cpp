@@ -4,6 +4,7 @@
 #include <SFML/Graphics.hpp>
 
 #include "planoid.h"
+#include "gravector.h"
 
 
 int main()
@@ -25,6 +26,8 @@ int main()
     Planoid planed{mass, posit, veloc, deltime, orange};
 
     sf::RenderWindow window(sf::VideoMode(win_dim, win_dim), program_name, sf::Style::Default);
+
+    const float bosit{abso(posit)};
 
     while(window.isOpen())
     {
