@@ -35,6 +35,8 @@ public:
 
     void move();
 
+    void re_accel();
+
     void accelide(const sf::Vector2f& accel);
 
     void display(sf::RenderWindow& window);

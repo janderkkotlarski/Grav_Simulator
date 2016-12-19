@@ -5,7 +5,7 @@ CONFIG -= qt
 
 SOURCES += main.cpp \
     planoid.cpp \
-    gravector.cpp
+    planetes.cpp
 
 QMAKE_CXXFLAGS += -std=c++11 -Wall -Wextra
 
@@ -17,4 +17,5 @@ LIBS += -LD:\SFML-2.4.0\bin
 
 HEADERS += \
     planoid.h \
-    gravector.h
+    gravector.h \
+    planetes.h
