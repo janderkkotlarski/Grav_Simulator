@@ -33,6 +33,8 @@ public:
             const sf::Vector2f& veloc, const float deltime,
             const sf::Color& color);
 
+    Planoid becomes(Planoid& planed);
+
     void move();
 
     void re_accel();
@@ -41,14 +43,19 @@ public:
 
     void display(sf::RenderWindow& window);
 
-    void attract(Planoid& planed);
-
     float get_mass() const noexcept;
+
+    float get_radi() const noexcept;
 
     sf::Vector2f get_posit() const noexcept;
 
+    sf::Vector2f get_veloc() const noexcept;
+
     sf::Vector2f get_accel() const noexcept;
 
+    float get_deltime() const noexcept;
+
+    sf::Color get_color() const noexcept;
 };
 
 #endif // PLANOID_H
